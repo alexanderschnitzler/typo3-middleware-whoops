@@ -1,0 +1,16 @@
+{
+    "name": "schnitzler/typo3-middleware-whoops",
+    "description": "An extension that registers middlewares/whoops as a TYPO3 middleware",
+    "type": "typo3-cms-extension",
+    "keywords": ["TYPO3", "whoops", "psr-7", "psr-15", "middleware", "error", "handling", "exception", "throwable"],
+    "license": ["GPL-2.0-or-later"],
+    "authors": [
+        {
+            "name": "Alexander Schnitzler"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5.0",
+        "middlewares/whoops": "^1.2.0"
+    }
+}
